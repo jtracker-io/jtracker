@@ -12,7 +12,7 @@ component sharing and reuse, better data provenance tracking etc.
 ## Design Objectives
 
 * Multi-tenancy support natively, JTracker provides a platform for collaboration.
-  This curial for big consortium projects with large and complex computational tasks.
+  This is curial for big consortium projects with large and complex computational tasks.
 * Cloud friendly and horizontally scalable. Scaling up by simply adding more servers
   and workers.
 * Complete solution: support workflow full lifecycle including authoring/revising,
@@ -23,14 +23,14 @@ component sharing and reuse, better data provenance tracking etc.
   * Even possible to compose a workflow by putting together tools/workflows written
     in different workflow languages.
 * Decouple job/task scheduling and execution.
-  * Server is completely compute environment agnostic.
-  * Computation and data access can take place via workflow executors at various
+  * The server for job/task orchestration is completely compute environment agnostic.
+  * Computation and data access are performed by workflow executors at various
     cloud platforms or HPC clusters.
   * Users take control on where to execute workflow jobs.
   * Server does not need to access potentially sensitive data/credentials used in
     workflow steps.
 * Support full provenance and reproducibility.
-  * Recording provenance out of box, no action needed from users.
+  * Record provenance out of box, no action needed from users.
   * Detailed provenance allows full reproducibility of any data product.
   * Every entity is assigned with an immutable UUID can be used in scientific
     publication as permanent reference.
