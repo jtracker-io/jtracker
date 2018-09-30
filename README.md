@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the data-driven discovery age of genomics, enormous amounts of data present us
+In the data-driven discovery age of genomics, enormous amount of data presents us
 with both unique opportunities and unprecedented challenges. The demand for easy to
 use and highly automated workflow management and execution is increasely high. In
 the current state of the scientific workflow space there are many solutions but 
@@ -12,7 +12,7 @@ component sharing and reuse, better data provenance tracking etc.
 ## Design Objectives
 
 * Multi-tenancy support natively, JTracker provides a platform for collaboration.
-  This is curial for big consortium projects with large and complex computational tasks.
+  This is crucial for big consortium projects with large and complex computational tasks.
 * Cloud friendly and horizontally scalable. Scaling up by simply adding more servers
   and workers.
 * Complete solution: support workflow full lifecycle including authoring/revising,
